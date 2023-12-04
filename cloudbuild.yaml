@@ -34,6 +34,6 @@ steps:
            '--container-image', 
            'us-central1-docker.pkg.dev/${PROJECT_ID}/my-docker-repo/myimage']
     env:
-      - 'CLOUDSDK_COMPUTE_REGION=us-central1'
-      - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
+      - 'CLOUDSDK_COMPUTE_REGION=southamerica-east1'
+      - 'CLOUDSDK_COMPUTE_ZONE=southamerica-east1-a'
 # [END cloudbuild_basic_config]
